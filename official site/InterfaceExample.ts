@@ -39,3 +39,18 @@ function createSquare(config : SquareConfig):{color: string; area: number} {
 
 let mySquare = createSquare({color:"black", width:20});
 console.log(mySquare);
+
+interface Point {
+    readonly x: number;
+    readonly y : number;
+}
+
+let p1:Point = {x:10, y:20};
+console.log(p1.x +" "+p1.y);
+//p1.y = 6; //error readonly
+
+let  a: number[] = [1,2,3,4];
+let ro: ReadonlyArray<number> = a;
+console.log(ro);
+//ro[0]=2; //readonly array
+
