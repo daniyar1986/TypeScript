@@ -1,3 +1,4 @@
+// @ts-ignore
 let isDone: boolean = false;
 console.log(isDone);
 let decimal: number = 6;

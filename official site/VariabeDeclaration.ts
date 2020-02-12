@@ -1,5 +1,3 @@
-var a = 10;
-
 function f() {
     var message = "Hello World";
     return message;
